@@ -1,0 +1,165 @@
+*
+.TODO
+{
+width: px;
+height: 905px;
+border: 1px;
+}
+.Encabezado
+{
+width: 97.5%;
+height: 45px;
+margin-left: 10px;
+border: 1px solid black;
+background-color: #333333;
+text-align: center;
+color: white;
+padding: 5px;
+margin-top: 10px;
+}
+.nadita{        
+width: 98%;
+height: 1%;
+float: left;
+margin-left: 1%;
+background-color: #37c0fb;
+}
+#Tabla
+{
+border: 1px solid black;
+width: 98.5%;
+height: 350px;
+margin-left: 10px;
+margin-top: 15px;
+text-align: center;
+}
+td
+{
+border: 1px solid black;
+}
+.Sub
+{
+width: 97.5%;
+height: auto;
+margin-top: 10px;
+margin-left: 10px;
+border: 1px solid black;
+background-color: #333333;
+text-align: center;
+color: white;
+padding: 5px;
+}
+.Pie
+{
+width: 97.5%;
+height: 20px;
+margin-left: 10px;
+border: 1px solid black;
+background-color: #333333;
+color: #ffffff;
+text-align: center;
+color: white;
+padding: 5px;
+margin-top: 10px;
+}
+h3
+{
+margin-top: 13px;
+margin-right: 460px; 
+}
+#Im
+{
+width: 25px;
+height: 25px;
+float: left;
+margin-left: 470px;
+margin-top: 10px;
+}
+#Imm
+{
+width: 25px;
+height: 25px;
+float: left;
+margin-left: 540px;
+margin-top: 10px;
+}
+#hhh
+{
+margin-left: 460px;
+margin-top: -1px;
+}
+#hh
+{
+margin-right: 520px;
+}
+
+/*
+------------------------------------
+              header
+------------------------------------
+*/
+#imgBox{
+  margin-left: 35%;
+  padding: 2%;
+}
+ul{
+  display: flex;
+  margin-left: -3%;
+}
+li{
+  list-style: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border: 1px solid #333333;
+  background-color: #333333;
+}
+li a{
+  text-decoration: none;
+  color: #c0c0c0;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+nav li a
+{
+  background-color: #333333;
+  color:#c0c0c0;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+nav li a:hover{
+  background-color: #434343;  
+}
+nav > li 
+{
+  float: left;
+}
+nav li ul
+{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+nav li:hover > ul
+{
+  display: block;
+}
+ul, ol
+{
+  list-style: none;
+}
+
+nav li ul li
+{
+  position: relative;
+}
+
+nav li ul li ul
+{
+ right: -140px;
+ top:0px;
+}

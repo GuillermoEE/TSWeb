@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+
+/*
+------------------------------------
+              Imagen
+------------------------------------
+*/
+
+/*
+------------------------------------
+              header
+------------------------------------
+*/
+
+#imgBox{
+  margin-left: 35%;
+  padding: 2%;
+  width: 80%;
+}
+ul{
+ 
+}
+
+li{
+  height: 100px;
+  list-style: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 1px solid #333333;
+  background-color: #333333;
+}
+li a{
+  text-decoration: none;
+  color: #c0c0c0;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+nav li a
+{
+  background-color: #333333;
+  color:#c0c0c0;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+nav li a:hover{
+  background-color: #434343;  
+}
+nav > li 
+{
+  
+}
+nav li ul
+{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+nav li:hover > ul
+{
+  display: block;
+}
+ul, ol
+{
+  list-style: none;
+}
+
+nav li ul li
+{
+  position: relative;
+}
+
+nav li ul li ul
+{
+ 
+ top:0px;
+}
+
+
+#imagenBox{
+  border-top: 18px solid #37c0fb;
+  display: inline-block;
+  margin-top: -10px;
+}
+#imagen{
+  height:466px;
+  width: 100%;
+}
+#textoEncima{
+  position: absolute;
+  top: 633px;
+  background-color: #474747;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  opacity: 0.5;
+}
+#another{
+  position: absolute;
+  top: 650px;
+  width: 100%;
+  display: flex;
+}
+#texto{
+  margin-left: 450px;
+  font-size: 20px;
+  opacity: 0.5;
+  margin-top: 15px;
+}
+#botonLearn{
+  font-size: 20px;
+  text-decoration: none;
+  background: #37c0fb;
+  padding: 10px;
+  border-radius:3px;
+  margin-left: 20px;
+  color: white;
+}
+
+
+/*
+------------------------------------
+              Carreras
+------------------------------------
+*/
+#carreras{
+  margin-top: 50px;
+  display: flex;
+  margin-left: 200px;
+}
+.promo{
+  width: 300px;
+  margin-right: 40px;
+}
+.contenido{
+  text-align: center;
+}
+.tituloCarre{
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.description{
+  color: #7a7a7a;
+  font-weight: bold;
+}
+/*
+------------------------------------
+              servicios
+------------------------------------
+*/
+.imgF{
+  width: 50px;
+}
+.funBox{
+  display: flex;
+  margin-left: 230px;
+  width: 100%;
+}
+.funcolumnas{
+  display: flex;
+  height: 50px;
+  margin-right: 170px;
+  margin-bottom: 30px;
+}
+#funciones{
+  background-color: #f7f6f6;
+  padding: 50px;
+}
+.textFun{
+  margin-top: 18px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*
+------------------------------------
+              Noticas
+------------------------------------
+*/
+#noticias{
+    display: flex;
+    padding: 50px;
+}
+.imgNo{
+  width: 150px;
+  border-radius: 5px;
+}
+.newColumnas{
+  display: flex;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.newBox{
+  margin-left: 100px;
+}
+.contNoti{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.textNo{
+  font-size: 18px;
+}
+.tituloNo{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+/*
+------------------------------------
+              Seccion azul
+------------------------------------
+*/
+#azul{
+  background-color: #37c0fb;
+  padding: 30px;
+}
+#moveAzul{
+  margin-left: 400px;
+  display: flex;
+}
+#textAz{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+#botonAzul{
+  text-decoration: none;
+  padding: 20px;
+  background-color: white;
+  font-size: 18px;
+  color: #929292;
+  border-radius: 10px;
+}
+/*
+------------------------------------
+              About
+------------------------------------
+*/
+#about{
+  display: flex;
+}
+#imgAbout{
+  border-radius: 20px;
+  width: 600px;
+}
+#principalAbout{
+  padding: 30px;
+}
+#textAbout{
+  width: 400px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+#tituloAbout{
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+#principalAbout{
+  margin-left: 150px;
+}
+
+
+
+

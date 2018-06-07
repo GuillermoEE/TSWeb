@@ -1,0 +1,111 @@
+h3{
+    color:white;
+    text-align: center;
+    background-color:#27c6ff;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+h5 {
+    color:white;
+    text-align: center;
+    background-color: #333333;;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    margin-top: 0px;
+}
+.rectangle {
+    background-color: #37c0fb;
+    padding-top: 5px;
+    padding-right: 60px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+}
+.boton{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*
+------------------------------------
+              header
+------------------------------------
+*/
+#imgBox{
+  margin-left: 35%;
+  padding: 2%;
+}
+ul{
+  display: flex;
+  margin-left: -3%;
+}
+li{
+  list-style: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border: 1px solid #333333;
+  background-color: #333333;
+}
+li a{
+  text-decoration: none;
+  color: #c0c0c0;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+nav li a
+{
+  background-color: #333333;
+  color:#c0c0c0;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+nav li a:hover{
+  background-color: #434343;  
+}
+nav > li 
+{
+  float: left;
+}
+nav li ul
+{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+nav li:hover > ul
+{
+  display: block;
+}
+ul, ol
+{
+  list-style: none;
+}
+
+nav li ul li
+{
+  position: relative;
+}
+
+nav li ul li ul
+{
+ right: -140px;
+ top:0px;
+}

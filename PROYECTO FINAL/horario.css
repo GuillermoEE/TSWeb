@@ -1,0 +1,122 @@
+*
+.todo
+{
+width: px;
+height:px;
+margin-top: 25px;
+border:1px solid #FBFCFC;
+
+}
+.uno
+{
+
+ width: 100%;
+height: auto;
+float: left;
+margin-left: px;
+background-color: #37c0fb;
+text-align: center;
+border: 3px solid black;
+}
+.horario
+{
+
+ width:80%;
+height: auto;
+margin-top: 25px;
+float: left;
+margin-left: 12%;
+border: 1px;
+
+}
+#pie{
+width: 100%;
+height: 30px;
+float: left;
+margin-left: px;
+background-color: #333333;
+color:#ffffff;
+text-align:center;
+           
+              }
+              .nadita{
+        margin-top: 40px;
+              width: 100%;
+height: 10px;
+float: left;
+background-color: #37c0fb;
+	
+              
+              
+               }
+
+/*
+------------------------------------
+              header
+------------------------------------
+*/
+#imgBox{
+  margin-left: 35%;
+  padding: 2%;
+}
+ul{
+  display: flex;
+  margin-left: -3%;
+}
+li{
+  list-style: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border: 1px solid #333333;
+  background-color: #333333;
+}
+li a{
+  text-decoration: none;
+  color: #c0c0c0;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+nav li a
+{
+  background-color: #333333;
+  color:#c0c0c0;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+nav li a:hover{
+  background-color: #434343;  
+}
+nav > li 
+{
+  float: left;
+}
+nav li ul
+{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+nav li:hover > ul
+{
+  display: block;
+}
+ul, ol
+{
+  list-style: none;
+}
+
+nav li ul li
+{
+  position: relative;
+}
+
+nav li ul li ul
+{
+ right: -140px;
+ top:0px;
+}

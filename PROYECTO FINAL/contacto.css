@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+img{
+  width: 40%;
+  height: 112px;
+  border-radius: 179px;
+}
+.contaco{
+  display: flex;
+  width: auto;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.flexBox{
+  display: flex;
+}
+#contactosBox{
+  margin-left: 50px;
+  margin-top: 100px;
+  width: auto;
+}
+p{
+  margin-top: 20px;
+  margin-left: 10px;
+  width: auto;
+}
+form{
+  display: block;
+  margin-top: 50px;
+}
+.mainBox{
+  display: flex;
+}
+.nose{
+  margin-bottom: 50px;
+}
+input{
+  width: 183px;
+  height: 54px;
+  border-radius: 3px;
+}
+#name{
+  margin-right: 20px;
+}
+textarea{
+  width: 418px;
+  height: 202px;
+  border-radius: 3px;
+}
+#formBox{
+  background-color: #f7f6f6;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 95px;
+}
+#enviar{
+  width: 70px;
+  height: 32px;
+  background-color: #333333;
+  border: 0px;
+  color: white;
+  margin-top: 20px;
+}
+@media(max-width:500px){
+  .mainBox{
+    display: block;
+  }
+  .flexBox{
+    display: block;
+  }
+  #formBox{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+/*
+------------------------------------
+              header
+------------------------------------
+*/
+#imgBox{
+  margin-left: 35%;
+  padding: 2%;
+}
+ul{
+  display: flex;
+  margin-left: -3%;
+}
+li{
+  list-style: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border: 1px solid #333333;
+  background-color: #333333;
+}
+li a{
+  text-decoration: none;
+  color: #c0c0c0;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+nav li a
+{
+  background-color: #333333;
+  color:#c0c0c0;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+nav li a:hover{
+  background-color: #434343;  
+}
+nav > li 
+{
+  float: left;
+}
+nav li ul
+{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+nav li:hover > ul
+{
+  display: block;
+}
+ul, ol
+{
+  list-style: none;
+}
+
+nav li ul li
+{
+  position: relative;
+}
+
+nav li ul li ul
+{
+ right: -140px;
+ top:0px;
+}

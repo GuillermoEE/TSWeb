@@ -1,0 +1,382 @@
+*
+.TODO
+{
+width: px;
+height: 1200px;
+border: 1px;
+}
+.Encabezado
+{
+width: 98.3%;
+height: auto;
+margin-left: 10px;
+border: 1px solid black;
+background-color: #333333;
+text-align: center;
+color: white;
+padding: 5px;
+margin-top: 10px;
+box-sizing:border-box;
+max-width: 100%;
+}
+.nadita{        
+width: 98%;
+height: 1%;
+float: left;
+margin-left: 1%;
+background-color: #37c0fb;
+}
+.Parrafo
+{
+width: 98.3%;
+height: auto;
+margin-left: 10px;
+border: 1px;
+text-align: center;
+color: white;
+padding: 5px;
+margin-top: 10px;
+box-sizing:border-box;
+max-width: 100%;
+}
+
+.Sub
+{
+width: 98.3%;
+height: auto;
+margin-top: 10px;
+margin-left: 10px;
+border: 1px solid black;
+background-color: #333333;
+text-align: center;
+color: white;
+padding: 5px;
+box-sizing:border-box;
+max-width: 100%;
+}
+
+.Parrafoo
+{
+width: 98.3%;
+height: auto;
+margin-left: 10px;
+text-align: center;
+border: 1px;
+color: white;
+padding: 5px;
+margin-top: 10px;
+box-sizing:border-box;
+max-width: 100%;
+}
+
+.Des
+{
+width: 98.3%;
+height: auto;
+margin-top: 10px;
+margin-left: 10px;
+border: 1px solid black;
+background-color: #333333;
+text-align: center;
+color: white;
+padding: 5px;
+box-sizing:border-box;
+max-width: 100%;
+}
+.TABLA
+{
+border: 1px;
+width: 98.2%;
+height: 535px;
+margin-left: 10px;
+margin-top: 10px;
+text-align: center;
+overflow: auto;
+box-sizing:border-box;
+max-width: 100%;
+
+}
+#Tabla
+{
+background-color: #F2F2F2;
+border: 1px solid black;
+width: 47.9%;
+height: 250px;
+border: 1px solid black;
+margin-top: 10px;
+text-align: center;
+float: left;
+margin-left: 10px;
+box-sizing:border-box;
+max-width: 100%;
+}
+#Tablaa
+{
+border: 1px solid black;
+width: 47.9%;
+height: 250px;
+margin-top: 10px;
+text-align: center;
+float: right;
+margin-right: 10px;
+background-color: #F2F2F2;
+box-sizing:border-box;
+max-width: 100%;
+}
+td
+{
+border: 1px solid black;
+}
+.Pie
+{
+width: 98.3%;
+height: 3%;
+margin-left: 10px;
+border: 1px solid black;
+background-color: #333333;
+text-align: center;
+color: white;
+padding: 5px;
+margin-top: 10px;
+box-sizing:border-box;
+max-width: 100%;
+}
+h3
+{
+margin-top: -1px;
+margin-right: -10px; 
+}
+#Im
+{
+width: 2%;
+height: 25px;
+float: left;
+margin-left: 40%;
+margin-top: 10px;
+}
+#Imm
+{
+width: 2%;
+height: 25px;
+float: left;
+margin-left: 37%;
+margin-top: 10px;
+}
+#Immm
+{
+width: 2%;
+height: 25px;
+float: left;
+margin-left: 40%;
+margin-top: 10px;
+}
+#hs
+{
+	width: 65%;
+margin-right: 50%;
+margin-top: 13px;
+}
+#hh
+{
+width: 65%;
+margin-right: 50%;
+margin-top: 13px;
+}
+#hhh
+{
+width: 65%;
+margin-right: 50%;
+margin-top: 13px;
+}
+p
+{
+width: 100%;
+color: black;
+}
+#Tx
+{
+color: #2E64FE;
+font-weight:bold;
+}
+td
+{
+font-weight: lighter;
+}
+#Tz
+{
+font-weight: bold;
+}
+
+@media screen and (max-width: 200px)
+{
+	.TODO
+	{
+	width: 10%;
+	
+	}
+	.Encabezado
+	{
+		width: 10%;
+		min-width: 20%;
+		height: auto;
+		box-sizing:border-box;
+	}
+	
+	.Parrafo
+	{
+		width: 10%;
+		height: auto;
+	}
+	
+	.Sub
+	{
+		width: 10%;
+		height: auto;
+	}
+	
+	.Parrafoo
+	{
+		width: 10%;
+		height: auto;
+	}
+	
+	.Des
+	{
+		width: 10%;
+height: auto;
+	}
+	
+	.TABLA
+	{
+		width: 10%;
+		height: auto;
+	}
+	
+	#Tabla
+	{
+		width: 10%;
+		height: auto;
+	}
+	#Tablaa
+	{
+		width: 10%;
+		height: auto;
+	}
+
+	.Pie
+	{
+		width: 10%;
+		height: auto;
+	}
+	
+	#Im
+	{
+		max-width: 10%;
+		width: 50%;
+		height: auto;
+	}	
+	
+	#Imm
+	{
+		width: 10%;
+		height: auto;
+	}
+		
+	#Immm
+	{
+		width: 10%;
+		height: auto;
+	}	
+	
+	#hs
+{
+width: 10%;
+height: auto;
+}
+#hh
+{
+width: 10%;
+height: auto;
+}
+#hhh
+{
+width: 10%;
+height: auto;
+}
+p
+{
+width: 10%;
+height: auto;
+}
+}
+
+/*
+------------------------------------
+              header
+------------------------------------
+*/
+#imgBox{
+  margin-left: 35%;
+  padding: 2%;
+}
+ul{
+  display: flex;
+  margin-left: -3%;
+}
+li{
+  list-style: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border: 1px solid #333333;
+  background-color: #333333;
+}
+li a{
+  text-decoration: none;
+  color: #c0c0c0;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+nav li a
+{
+  background-color: #333333;
+  color:#c0c0c0;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+nav li a:hover{
+  background-color: #434343;  
+}
+nav > li 
+{
+  float: left;
+}
+nav li ul
+{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+nav li:hover > ul
+{
+  display: block;
+}
+ul, ol
+{
+  list-style: none;
+}
+
+nav li ul li
+{
+  position: relative;
+}
+
+nav li ul li ul
+{
+ right: -140px;
+ top:0px;
+}
